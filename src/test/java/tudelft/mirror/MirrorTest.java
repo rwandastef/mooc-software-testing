@@ -16,8 +16,8 @@ public class MirrorTest {
     @Test
     public void testMirrorEnd2(){
         Mirror mirror = new Mirror();
-        String result = mirror.mirrorEnds("abca");
-        Assertions.assertEquals("a", result);
+        String result = mirror.mirrorEnds("aabaa ");
+        Assertions.assertEquals("aa", result);
 
     }
 
