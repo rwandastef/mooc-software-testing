@@ -10,6 +10,7 @@ public class RomanNumeralTestWithBeforeEach {
 
     @BeforeEach
     public void initialize() {
+        System.out.println(" -- new test --");
         this.roman = new RomanNumeral();
     }
 

@@ -21,6 +21,14 @@ public class RomanNumeralTest {
     }
 
     @Test
+    public void numberWithManyDigits2() {
+        RomanNumeral roman = new RomanNumeral();
+        int result = roman.convert("IIII");
+        Assertions.assertEquals(4, result);
+    }
+
+
+    @Test
     public void numberWithSubtractiveNotation() {
         RomanNumeral roman = new RomanNumeral();
         int result = roman.convert("IV");
